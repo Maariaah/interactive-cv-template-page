@@ -1,4 +1,5 @@
-.gitignore
+
 .idea/
 jQuery.js
-images
+assets/images/
+.gitignore
