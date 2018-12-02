@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <title>Marija Nikolić CV</title>
-    <link rel="stylesheet" href="./assets/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 <body>
 
@@ -267,44 +267,6 @@
     </div>
 </div>
 <script src="jQuery.js"></script>
-<script>
-
-    let tabs = $('.tab');
-
-
-    tabs.each(function (i) {
-
-        $(this).on("click", function () {
-            let name = $(this).attr('data-attr');
-            let section = $('section');
-
-            if (tabs.hasClass("border-gradient")) {
-                tabs.removeClass("border-gradient");
-                $(this).addClass("border-gradient");
-
-
-            }
-
-            else if ($(this).hasClass("border-gradient")) {
-                $(this).removeClass("border-gradient");
-            }
-            else {
-                $(this).addClass("border-gradient");
-            }
-
-            section.each(function () {
-
-                if (name == $(this).attr("id")) {
-                    $(this).toggle()
-                }
-                else {
-                    $(this).css('display', "none")
-                }
-            });
-        });
-    })
-
-
-</script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
