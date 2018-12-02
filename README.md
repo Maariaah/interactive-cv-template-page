@@ -3,5 +3,5 @@
  ## Getting Started
  Download the project and change the content according to your needs.
  ### Prerequisites
- No prerequisites needed.
- Enjoy! <3
+ And guess what.. no prerequisites needed!!!:stuck_out_tongue_closed_eyes:
+ Enjoyyy! :sparkling_heart:
